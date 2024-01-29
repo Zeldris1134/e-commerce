@@ -46,18 +46,18 @@
 
   h2 {
     font-size: 70px;
-    margin: 0 0 32px 0;
+    margin: 32px 0;
 
     @include mid-break {
       font-size: 48px;
-      margin: 0 0 24px 0;
+      margin: 24px 0;
       white-space: wrap;
     }
 
     @include small-break {
       width: 70%;
       font-size: 36px;
-      margin: -8px 0 8px 0;
+      margin: 8px 0;
     }
   }
 
@@ -69,8 +69,7 @@
     }
 
     @include small-break {
-      width: 45%;
-      font-size: 18px; 
+      font-size: 18px;
     }
   }
 }

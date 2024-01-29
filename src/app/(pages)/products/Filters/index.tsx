@@ -26,7 +26,7 @@ const Filters = ({ categories }: { categories: Category[] }) => {
   const handleSort = (value: string) => setSort(value)
 
   return (
-    <div className={classes.Filters}>
+    <div className={classes.filters}>
       <div>
         <h6 className={classes.title}>Product Categories</h6>
         <div className={classes.categories}>
